@@ -18,7 +18,8 @@ computer_choice = random.choice(choicelist)
 
 print("Computer chose: ",computer_choice)
 print("User choice: ",user_choice)
-
+while True:
+    
 if user_choice == computer_choice:
     print("It's a tie!")
 elif user_choice == 'rock' and computer_choice == 'scissors':
@@ -29,3 +30,6 @@ elif user_choice == 'scissors' and computer_choice == 'paper':
     print("You win!")
 else:
     print("Computer wins!")
+    
+
+
